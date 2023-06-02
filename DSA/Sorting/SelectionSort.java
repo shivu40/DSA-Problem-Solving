@@ -8,8 +8,8 @@ public class SelectionSort {
 //    since the first element is sorted we again find the minimum for rest of the array and swap it with
 //    the second element, then again from 3rd element to last element find minimum and swap it with 3rd element
 //    and so on.....
-//    Time Complexity :
-//    Space Complexity:
+//    Time Complexity : O(n^2)
+//    Space Complexity: O(1)
     static void selectionSort(int[] arr){
         int n = arr.length;
 
